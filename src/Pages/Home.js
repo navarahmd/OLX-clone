@@ -15,7 +15,7 @@ function Home(props) {
       <Footer />
     </div>
   );
-}
+} 
 
 export default Home;
  
