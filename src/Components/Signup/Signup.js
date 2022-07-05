@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import Logo from '../../olx-logo.png';
 import { FirebaseContext } from '../../store/FirebaseContext';
-import { useHistory } from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
 import './Signup.css';
 
 export default function Signup() {
@@ -69,7 +69,7 @@ export default function Signup() {
           <br />
           <label htmlFor="lname">Password</label>
           <br />
-          <input
+          <input 
             className="input"
             type="password"
             value={password}
